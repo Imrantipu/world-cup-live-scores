@@ -293,3 +293,48 @@ hr {
     margin-top: 15px;
     font-weight: 600;
 }
+
+/* -------------------Media Queries --------------------------*/
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+
+
+    .top-section {
+        width: 100%;
+    }
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cardPart {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-style,
+    .contact-description {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .top-section {
+        width: 100%;
+    }
+
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cardPart {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-style,
+    .contact-description {
+        flex-direction: column;
+        align-items: center;
+    }
+}
