@@ -1,172 +1,189 @@
-/* common-style or utilities*/
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* common-style or utilities */
 body {
     font-family: "Poppins", sans-serif;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 main {
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
-.gretest-show-block {
+/* top section style */
+.top-section {
     background-color: black;
-    width: 1322px;
-    height: 646px;
+    width: 1054px;
+    height: 500px;
     border-radius: 30px;
-    margin-top: 30px;
+    margin-top: 29px;
     display: flex;
 }
 
-.the-gretest-show {
-    margin-top: 120px;
-    margin-left: 111px;
-    width: 550px;
-    height: 485px;
+.top-show {
+    margin-top: 50px;
+    margin-left: 45px;
+    width: 465px;
+    height: 450px;
 }
 
 h1 {
-    color: white;
+    color: #ffffff;
     font-size: 70px;
     font-weight: 700;
     line-height: 15%;
 }
 
 p {
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
 }
 
-.button {
-    background-color: orangered;
-    margin-top: 30px;
-    height: 40px;
-    width: 120px;
+.button-style {
+    background-color: #dd0000;
     border-radius: 5px;
+    margin-top: 15px;
+    width: 130px;
+    height: 40px;
     color: white;
 }
 
-.bacground-image {}
-
-.bacground-image img {
-    height: 586px;
-    margin-top: 60px;
-    width: 550px;
+.top-side-image img {
+    margin-top: 25px;
+    height: 475px;
+    width: 450px;
 }
 
-/* second block started */
-/* upcoming match block started */
+/* top section style end */
+
+/* left midle section style start */
 .container {
     margin-top: 80px;
-
+    display: grid;
+    grid-template-columns: 25% repeat(3, 1fr);
+    gap: 15px;
 }
 
-.upcoming-match {
-    width: 323px;
-    height: 323px;
-    background-color: black;
+/* ---------------------------------------- */
+/* .container_2 {
+  margin-left: 286px;
+} */
+.cardPart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 15px;
+    margin-left: 286px;
+    /* grid-column-gap: 24px; */
+    gap: 15px;
+}
+
+/* ------------------------------------------- */
+.match-info {
+    width: 259px;
+    height: 247px;
+    background-color: #161616;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-
     justify-content: center;
-
+    flex-direction: column;
+    /* margin-top: 15px; */
+    margin: 0 auto;
+    padding: 0 !important;
+    /* overflow: scroll; */
 }
 
-.upcoming-match1 {
-    width: 252px;
-    height: 64px;
+.upcoming-match {
     background-color: white;
+    width: 217px;
+    height: 55px;
     border-radius: 10px;
-
 }
 
-.upcoming-match1 a {
+.upcoming-match a {
     text-decoration: none;
-
 }
 
-#match {
+#upcoming-match-style {
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 15px;
     font-weight: 600;
 }
 
-.button1 {
-    width: 252px;
-    height: 64px;
+.group-style {
     background-color: white;
+    width: 217px;
+    height: 55px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 25px;
     font-weight: 800;
 }
 
-.button2 {
-    width: 252px;
-    height: 64px;
+.blog-style {
+    background-color: indianred;
+    width: 217px;
+    height: 55px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 25px;
     font-weight: 800;
     color: white;
-    background-color: blue;
 }
 
-/* upcoming match block end */
+/* left middle section style end */
+/* right middle section style start */
 .transfer {
-    width: 323px;
-    height: 350px;
+    width: 247px;
+    height: 290px;
     border-radius: 10px;
-    border: 1px solid wheat;
+    border: 1px solid blue;
 }
 
-.transfer-imag img {
-    width: 323px;
-    height: 170px;
+.transfer-style img {
+    width: 247px;
+    height: 130px;
 }
 
-.transfer-button {
+.transfer-button-style {
     width: 100px;
     height: 32px;
     border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 15px;
+    margin-top: 11px;
+    margin-left: 12px;
 }
 
-h3 {
-    margin-top: 25px;
-    margin-left: 15px;
-    line-height: 10%;
+h4 {
+    font-size: 15px;
+    margin-top: 24px;
+    margin-left: 12px;
+    line-height: 20%;
 }
 
-.time-and-massage-icon {
+.transfer-time {
     display: flex;
-    margin-top: 40px;
-    margin-left: 15px;
-
+    margin-top: 20px;
+    margin-left: 12px;
 }
 
-.course-duration {
-    color: rgb(80, 74, 80);
+.clock-style {
+    color: rgb(79, 78, 78);
     border-radius: 5px;
     font-size: 15px;
-
 }
 
 .fa-clock {
     margin-right: 10px;
 }
 
-.message {
+.message-style {
     margin-left: 40px;
-    color: rgb(80, 74, 80);
+    color: rgb(79, 78, 78);
     border-radius: 5px;
     font-size: 15px;
 }
@@ -175,38 +192,42 @@ h3 {
     margin-right: 10px;
 }
 
-/* footer strat  */
-
-.footer-style {
-    width: 1903px;
-    height: 444px;
-    background-color: black;
+/* right middle section style end */
+/* footer style start */
+footer {
+    background-color: #161616;
+    width: 1350px;
+    height: 300px;
     margin-top: 100px;
 }
 
-h2 {
-    color: white;
+.h3-style {
+    color: #ffffff;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
 hr {
-    width: 1300px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     align-items: center;
-    margin-top: 62px;
+    width: 1000px;
+    margin-top: 22px;
 }
 
-.contact-us-style-start {
+.contact-style {
     display: flex;
     justify-content: center;
-    color: rgb(80, 74, 80);
+    /* width:990px; */
+    color: #b9b9b9;
     padding: 15px;
 }
 
-.contact-us {
+.contact-description {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1250px;
+    width: 990px;
     justify-content: space-evenly;
 }
+
+/* footer style end */
