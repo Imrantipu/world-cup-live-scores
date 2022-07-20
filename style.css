@@ -59,10 +59,9 @@ p {
 
 /* second block started */
 /* upcoming match block started */
-.container1 {
+.container {
     margin-top: 80px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
 }
 
 .upcoming-match {
@@ -174,4 +173,40 @@ h3 {
 
 .fa-message {
     margin-right: 10px;
+}
+
+/* footer strat  */
+
+.footer-style {
+    width: 1903px;
+    height: 444px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+}
+
+hr {
+    width: 1300px;
+    align-items: center;
+    margin-top: 62px;
+}
+
+.contact-us-style-start {
+    display: flex;
+    justify-content: center;
+    color: rgb(80, 74, 80);
+    padding: 15px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1250px;
+    justify-content: space-evenly;
 }
