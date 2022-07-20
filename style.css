@@ -231,3 +231,65 @@ hr {
 }
 
 /* footer style end */
+
+/* linked page styles */
+
+.transfer1 {
+    width: 247px;
+    height: 210px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.german-france-flag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.h3-style1 {
+    text-align: center;
+    line-height: 20%;
+}
+
+.paragraph {
+    color: rgb(79, 78, 78);
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.blog-style1 {
+    width: 217px;
+    height: 55px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-weight: 800;
+    color: black;
+}
+
+.upcoming-match1 {
+    background-color: indianred;
+    width: 217px;
+    height: 55px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-weight: 800;
+    color: white;
+}
+
+.upcoming-match1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#upcoming-match-style1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: 600;
+}
